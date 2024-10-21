@@ -66,7 +66,7 @@ int dynamic_array_find(DynamicArray* dym_arr, void* element);
 /**
  * @brief Checks whether an element is inside the array and returns the indices of all the positions of the array where the element is found
  */
-DynamicArray* dynamic_array_findall(DynamicArray* dym_arr, void* element);
+// DynamicArray* dynamic_array_findall(DynamicArray* dym_arr, void* element);
 
 /**
  * @brief Returns the element in specified position

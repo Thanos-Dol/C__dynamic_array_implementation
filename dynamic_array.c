@@ -41,7 +41,7 @@ DynamicArray* dynamic_array_copy(DynamicArray* a_dym_arr)
 {
     if (!a_dym_arr)
     {
-        return;
+        return NULL;
     }
 
     DynamicArray* dym_arr_copy = (DynamicArray*) malloc(sizeof(DynamicArray));
